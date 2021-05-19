@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "0.65.1"
+uvicorn = "0.13.4"
+pytest = "*"
+requests = "*"
+asyncpg = "*"
+psycopg2-binary = "*"
+sqlalchemy = "*"
+databases = "*"
+pytest-cov = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
